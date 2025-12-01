@@ -59,9 +59,6 @@ _extensions/
 # Common System Files & Project-Specific Exclusions
 # ----------------------------------------------------------------------------
 
-# Identifiable Info (User-Defined)
-lab_photo.png
-
 # Windows/macOS/Linux system files (Systemdateien)
 Thumbs.db # Windows thumbnail cache
 .DS_Store # macOS directory service file
@@ -88,5 +85,3 @@ elsarticle.cls
 elsarticle-harv.bst
 elsarticle-num.bst
 elsevier-vancouver.csl
-/.quarto/
-.Rproj.user
