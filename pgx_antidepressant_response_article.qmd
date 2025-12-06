@@ -137,14 +137,14 @@ The primary application of PGx in antidepressant therapy is the initial selectio
 
 *CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies of the gene, resulting in significantly elevated enzyme activity. Studies have found that *CYP2D6* gene duplications are most prevalent in Ethiopia and Saudi Arabia, with $20-30\%$ of the local population possessing this genotype (see Fig. \ref{fig:cyp2d6-distribution}). [**2 cái Tables này chuyển lên phần III. A. Genetics in Etiology and Diagnosis**]. For context, Table \ref{tab:tbl-cyp2d6-phenotype} and Table \ref{tab:tbl-cyp2c19-phenotype} show the assignment of likely phenotypes based on the diplotypes of the *CYP2D6* and *CYP2C19* genes, respectively. If these patients are prescribed Tricyclic Antidepressants (TCAs) like amitriptyline or nortriptyline, the drug would be metabolized and cleared from the body too quickly to achieve therapeutic blood concentrations [@AmitriptylineResponseNIH]. Thus, standard treatments often have increased risk of failure. In such cases, guidelines recommend selecting an alternative antidepressant that is not primarily metabolized by *CYP2D6* to ensure the patient receives a therapeutic benefit [@deanAmitriptylineTherapyCYP2D62012]. Similarly, for *CYP2C19* UMs, guidelines suggest avoiding citalopram or escitalopram due to the high likelihood of subtherapeutic drug levels and treatment failure [@brouwerDutchPharmacogeneticsWorking2022].
 
-\begin{figure*}[htb]
+\begin{figure*}[!htb]
     \centering
     \includegraphics[width=\textwidth]{photos/cyp2d6_duplication_distribution.png}
     \caption{Interethnic distribution of alleles containing duplicated active \textit{CYP2D6} genes. Reproduced from Ingelman-Sundberg M \cite{ingelman-sundbergPharmacogeneticsOpportunitySafer2001}.}
     \label{fig:cyp2d6-distribution}
 \end{figure*}
 
-\begin{table*}[tbh]
+\begin{table*}[!tbh]
   \begin{center}
     \caption{Assignment of predicted \textit{CYP2D6} phenotypes based on diplotypes}
     \label{tab:tbl-cyp2d6-phenotype}
@@ -153,33 +153,32 @@ The primary application of PGx in antidepressant therapy is the initial selectio
       \hline
       \textit{CYP2D6} Ultrarapid metabolizer ($\approx1–20\%$ of patients) 
       & $>2.25$ 
-      & An individual carrying duplications of functional alleles 
+      & Carries duplications of functional alleles 
       & $(*1/*1) \times N$, $(*1/*2) \times N$, $(*2/*2) \times N$ \\
       \textit{CYP2D6} Normal metabolizer ($\approx72–88\%$ of patients) 
       & $1.25\le x \le 2.25$
-      & An individual carrying allele combinations that result in an activity score of $1.0–2.0$
+      & Carries allele combinations resulting in an activity score of $1.0–2.0$
       & $*1/*1$, $*1/*2$, $*2/*2$, $*1/*9$, $*1/*41$, $*41/*41$, $*1/*5$, $*1/*4$ \\
       \textit{CYP2D6} Intermediate metabolizer ($\approx1–13\%$ of patients) 
       & $0<x<1.25$
-      & An individual carrying one decreased function and one no function allele
+      & Carries one decreased function allele and one no function allele
       & $*4/*41$, $*5/*9$, $*4/*10$ \\
       \textit{CYP2D6} Poor metabolizer ($\approx1–10\%$ of patients)
       & $0$
-      & An individual carrying only no function alleles
+      & Carries only no function alleles
       & $*4/*4$, $(*4/*4)\times N$, $*3/*4$, $*5/*5$, $*5/*6$ \\
       \textit{CYP2D6} Indeterminate
       & $0$
-      & An individual carrying one or two uncertain and/or unknown function alleles
+      & Carries one or two uncertain and/or unknown function alleles
       & $*1/*22$, $*1/*25$, $*22/*25$
     \end{tabular}
     \vspace{1ex} % optional, a bit of vertical spacing
-   {\footnotesize % or small font, depending on journal style
+   {\footnotesize
     \itshape \newline Note. Phenotype assignments were compiled by synthesizing criteria from the DPWG guideline on CYP2C19 and CYP2D6 interactions with SSRIs \cite{brouwerDutchPharmacogeneticsWorking2022}, the CPIC Guideline for Selective Serotonin Reuptake Inhibitors (2023) \cite{bousmanClinicalPharmacogeneticsImplementation2023}, and the CPIC Guideline for Tricyclic Antidepressants (2016) \cite{hicksClinicalPharmacogeneticsImplementation2017}.}
   \end{center}
 \end{table*}
 
-
-\begin{table*}[tbh]
+\begin{table*}[!tbh]
   \begin{center}
     \caption{Assignment of predicted \textit{CYP2C19} phenotypes based on diplotypes}
     \label{tab:tbl-cyp2c19-phenotype}
@@ -188,39 +187,39 @@ The primary application of PGx in antidepressant therapy is the initial selectio
       \hline
       \textit{CYP2C19} Ultrarapid metabolizer
       & n/a 
-      & An individual carrying two increased function alleles
+      & Carries two increased function alleles
       & $*17/*17$ \\
       \textit{CYP2C19} Rapid metabolizer
       & n/a
-      & An individual carrying one normal function allele and one increased function allele
+      & Carries one normal function allele and one increased function allele
       & $*1/*17$ \\
       \textit{CYP2C19} Normal metabolizer
       & n/a
-      & An individual carrying two normal function alleles
+      & Carries two normal function alleles
       & $*1/*1$ \\
       \textit{CYP2C19} Likely intermediate metabolizer
       & n/a
-      & An individual carrying one normal function allele and one decreased function allele or one increased function allele and one decreased function allele or two decreased function alleles
+      & Carries either: one normal and one decreased function allele, or one increased and one decreased function allele, or two decreased function alleles
       & $*1/*9$, $*9/*17$, $*9/*9$ \\
       \textit{CYP2C19} Intermediate metabolizer
       & n/a
-      & An individual carrying one normal function allele and one no function allele or one no function allele and one increased function allele
+      & Carries either: one normal and one no function allele, or one no function and one increased function allele
       & $*1/*2$, $*1/*3$, $*2/*17$ \\
       \textit{CYP2C19} Likely poor metabolizer
       & n/a
-      & An individual carrying one decreased function allele and one no function allele
+      & Carries one decreased function allele and one no function allele
       & $*2/*9$, $*3/*9$ \\
       \textit{CYP2C19} Poor metabolizer
       & n/a
-      & An individual carrying two no function alleles
+      & Carries two no function alleles
       & $*2/*2$, $*2/*3$, $*3/*3$ \\
       \textit{CYP2C19} Indeterminate
       & n/a
-      & An individual carrying one or two uncertain function alleles
+      & Carries one or two uncertain function alleles
       & $*1/*12$, $*2/*12$, $*12/*14$ \\
     \end{tabular}
     \vspace{1ex} % optional, a bit of vertical spacing
-   {\footnotesize % or small font, depending on journal style
+   {\footnotesize
     \itshape \newline Note. Phenotype assignments were compiled by synthesizing criteria from the DPWG guideline on CYP2C19 and CYP2D6 interactions with SSRIs \cite{brouwerDutchPharmacogeneticsWorking2022}, the CPIC Guideline for Selective Serotonin Reuptake Inhibitors (2023) \cite{bousmanClinicalPharmacogeneticsImplementation2023}, and the CPIC Guideline for Tricyclic Antidepressants (2016) \cite{hicksClinicalPharmacogeneticsImplementation2017}.}
   \end{center}
 \end{table*}
@@ -259,6 +258,6 @@ The authors declare no competing interests.
 
 # Data/Code Availability
 
-The Quarto source code for this paper is available at \url{https://github.com/ht2905/pgx-antidepressant-response-article}.
+The Quarto project underlying this paper—including the manuscript, figures, and bibliography—is available at \url{https://github.com/ht2905/pgx-antidepressant-response-article}.
 
 # References
