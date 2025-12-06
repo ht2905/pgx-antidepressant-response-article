@@ -97,23 +97,23 @@ library(ragg)
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-
 ## Context and Background
 
-Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula non magna fermentum. In a enim. Suspendisse sagittis.
+Genetics plays a foundational role in modern medicine by explaining why individuals differ in their susceptibility to disease and in their responses to therapeutic interventions. These genetic differences, combined with environmental and lifestyle factors, contribute to the wide variation observed in drug effectiveness and safety across patient populations. Precision medicine is an emerging approach that aims to optimize patient care by accounting for individual variability rather than applying uniform, standardized treatment strategies. It incorporates multiple sources of variation including genetic makeup, environmental exposures, and lifestyle components to support more accurate diagnoses and more precisely targeted therapies. By moving beyond the traditional one-size-fits-all model, precision medicine seeks to improve overall treatment outcomes and reduce the likelihood of therapeutic failure [@konigWhatPrecisionMedicine2017]. 
+
+Pharmacogenetics represents a core branch of precision medicine focused on genome-level investigation to identify genetic variants that influence drug response. These variations can affect critical pharmacological processes such as drug absorption, distribution, metabolism, target interaction, and involvement in disease pathways. By making clear how genetic differences shape individual drug responses, pharmacogenetics provides the scientific basis for tailoring medication selection and dosing to each patient [@ingelman-sundbergPharmacogeneticsOpportunitySafer2001].
+
+Treating Major Depressive Disorder (MDD) remains challenging because initial antidepressant response rates are low and vary widely among patients. MDD is often underdiagnosed, complicated by somatic symptoms, and commonly co-occurs with chronic medical conditions, delaying accurate treatment. Even with proper diagnosis, many patients do not respond to first-line therapy, STAR*D data indicate that about $30\%$ of individuals fail to achieve remission after multiple antidepressant trials, highlighting a considerable treatment-resistant group [@rushSTARDRevisingConventional2009]. These outcomes reflect the biological and social heterogeneity of MDD, making standardized, trial-and-error prescribing inadequate. This gap underscores the need for more individualized strategies such as pharmacogenomic-guided therapy to optimize initial drug selection and reduce repeated treatment failures. 
 
 ## Scope and Thesis
 
-Nunc a ullamcorper elit. Nulla facilisi. Aenean placerat ac neque vitae dictum. Vestibulum ac ante in sem tincidunt cursus. Sed at efficitur quam. Vivamus sed dictum magna. Vivamus laoreet, urna eget convallis malesuada, odio urna euismod risus, in euismod nibh odio in velit.
+This review examines the clinical role of pharmacogenomics (PGx) in guiding antidepressant prescribing, with a particular emphasis on its potential to improve treatment selection and patient outcomes. The central argument of this paper is that pharmacogenomic testing of key Cytochrome P450 (CYP) enzymes, particularly *CYP2D6* and *CYP2C19*, can significantly enhance the prediction of drug response and optimize therapeutic outcomes for individuals undergoing antidepressant therapy.
 
 # Materials & Methods
 
-Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a turpis vel dolor mattis tincidunt vel ac tortor.
-
 ## Literature Search Strategy
 
-Donec ut dolor in massa auctor egestas. Nam eu massa. Sed convallis tristique sem. Proin ut ligula non magna fermentum. In a enim. Suspendisse sagittis. Fusce nec tellus sed augue semper porta. Mauris massa.
+To gather the materials for this review, our team conducted a literature search across several major scientific databases, including PubMed, Google Scholar, and Web of Science. We used a range of search terms related to the topic, such as “pharmacogenomics and antidepressants,” “*CYP2D6*/*CYP2C19* polymorphisms”, “*CYP2D6* and *CYP2C19* dose adjustments”, “major depressive disorder (MDD)” “drug metabolism genetics,” and “precision medicine.”, “CPIC guidelines”, “DPWG guidelines”, “tricyclic antidepressants”, “SSRIs”. These articles were selected based on the following criteria: peer-reviewed publications, clinical guidelines, and review papers published within roughly the last 2 decades, with a clear focus on pharmacogenomics and antidepressant therapy. Sources that were not peer-reviewed such as conference abstracts, opinion pieces, wikipedia or studies unrelated to antidepressant medications were excluded to ensure the review was based on reliable and clinically relevant evidence.
 
 ## Data Extraction and Synthesis
 
@@ -135,11 +135,16 @@ PGx testing directly translates genetic data into evidence-based clinical decisi
 
 The primary application of PGx in antidepressant therapy is the initial selection of a medication that matches the patient's metabolic profile. This process aims to maximize efficacy while alleviating the risk of adverse drug reactions (ADRs). The Clinical Pharmacogenetics Implementation Consortium (CPIC) and the Dutch Pharmacogenetics Working Group (DPWG) provide guidelines for specific gene-drug pairs, particularly involving *CYP2D6* and *CYP2C19* [@bousmanClinicalPharmacogeneticsImplementation2023; @bousmanReviewConsensusPharmacogenomic2021; @brouwerDutchPharmacogeneticsWorking2022].
 
-*CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies of the gene, resulting in significantly elevated enzyme activity. Studies have found that *CYP2D6* gene duplications are most prevalent in Ethiopia and Saudi Arabia, with $20-30\%$ of the local population possessing this genotype (see @fig-cyp2d6-distribution). For context, Table \ref{tab:tbl-cyp2d6-phenotype} and Table \ref{tab:tbl-cyp2c19-phenotype} show the assignment of likely phenotypes based on the diplotypes of the *CYP2D6* and *CYP2C19* genes, respectively. If these patients are prescribed Tricyclic Antidepressants (TCAs) like amitriptyline or nortriptyline, the drug would be metabolized and cleared from the body too quickly to achieve therapeutic blood concentrations [@AmitriptylineResponseNIH]. Thus, standard treatments often have increased risk of failure. In such cases, guidelines recommend selecting an alternative antidepressant that is not primarily metabolized by *CYP2D6* to ensure the patient receives a therapeutic benefit [@deanAmitriptylineTherapyCYP2D62012]. Similarly, for *CYP2C19* UMs, guidelines suggest avoiding citalopram or escitalopram due to the high likelihood of subtherapeutic drug levels and treatment failure [@brouwerDutchPharmacogeneticsWorking2022].
+*CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies of the gene, resulting in significantly elevated enzyme activity. Studies have found that *CYP2D6* gene duplications are most prevalent in Ethiopia and Saudi Arabia, with $20-30\%$ of the local population possessing this genotype (see Fig. \ref{fig:cyp2d6-distribution}). [**2 cái Tables này chuyển lên phần III. A. Genetics in Etiology and Diagnosis**]. For context, Table \ref{tab:tbl-cyp2d6-phenotype} and Table \ref{tab:tbl-cyp2c19-phenotype} show the assignment of likely phenotypes based on the diplotypes of the *CYP2D6* and *CYP2C19* genes, respectively. If these patients are prescribed Tricyclic Antidepressants (TCAs) like amitriptyline or nortriptyline, the drug would be metabolized and cleared from the body too quickly to achieve therapeutic blood concentrations [@AmitriptylineResponseNIH]. Thus, standard treatments often have increased risk of failure. In such cases, guidelines recommend selecting an alternative antidepressant that is not primarily metabolized by *CYP2D6* to ensure the patient receives a therapeutic benefit [@deanAmitriptylineTherapyCYP2D62012]. Similarly, for *CYP2C19* UMs, guidelines suggest avoiding citalopram or escitalopram due to the high likelihood of subtherapeutic drug levels and treatment failure [@brouwerDutchPharmacogeneticsWorking2022].
 
-![Interethnic distribution of alleles containing duplicated active CYP2D6 genes. Reproduced from Ingelman-Sundberg @ingelman-sundbergPharmacogeneticsOpportunitySafer2001.](photos/cyp2d6_duplication_distribution.png){#fig-cyp2d6-distribution fig-env="figure*"}
+\begin{figure*}[htb]
+    \centering
+    \includegraphics[width=\textwidth]{photos/cyp2d6_duplication_distribution.png}
+    \caption{Interethnic distribution of alleles containing duplicated active \textit{CYP2D6} genes. Reproduced from Ingelman-Sundberg M \cite{ingelman-sundbergPharmacogeneticsOpportunitySafer2001}.}
+    \label{fig:cyp2d6-distribution}
+\end{figure*}
 
-\begin{table*}[!tbh]
+\begin{table*}[tbh]
   \begin{center}
     \caption{Assignment of predicted \textit{CYP2D6} phenotypes based on diplotypes}
     \label{tab:tbl-cyp2d6-phenotype}
@@ -174,7 +179,7 @@ The primary application of PGx in antidepressant therapy is the initial selectio
 \end{table*}
 
 
-\begin{table*}[!tbh]
+\begin{table*}[tbh]
   \begin{center}
     \caption{Assignment of predicted \textit{CYP2C19} phenotypes based on diplotypes}
     \label{tab:tbl-cyp2c19-phenotype}
