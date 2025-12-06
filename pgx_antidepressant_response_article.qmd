@@ -70,6 +70,9 @@ format:
       cite-style: number
       # cite-style: super # Not supported by `citeproc`
     # csl: elsevier-vancouver.csl
+crossref:
+  fig-title: "Fig." # Controls the prefix used in the caption (“Fig. 1. Caption…”)
+  fig-prefix: "Fig." # Controls the prefix used by cross-references (“see Fig. 1”)
 ---
 
 ```{=html}
@@ -132,9 +135,11 @@ PGx testing directly translates genetic data into evidence-based clinical decisi
 
 The primary application of PGx in antidepressant therapy is the initial selection of a medication that matches the patient's metabolic profile. This process aims to maximize efficacy while alleviating the risk of adverse drug reactions (ADRs). The Clinical Pharmacogenetics Implementation Consortium (CPIC) and the Dutch Pharmacogenetics Working Group (DPWG) provide guidelines for specific gene-drug pairs, particularly involving *CYP2D6* and *CYP2C19* [@bousmanClinicalPharmacogeneticsImplementation2023; @bousmanReviewConsensusPharmacogenomic2021; @brouwerDutchPharmacogeneticsWorking2022].
 
-To start, *CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies of the gene, resulting in significantly elevated enzyme activity. Table \ref{tab:tbl-cyp2d6-phenotype} and Table \ref{tab:tbl-cyp2c19-phenotype} show the assignment of likely phenotypes based on the diplotypes of the *CYP2D6* and *CYP2C19* genes, respectively. If these patients are prescribed Tricyclic Antidepressants (TCAs) like amitriptyline or nortriptyline, the drug would be metabolized and cleared from the body too quickly to achieve therapeutic blood concentrations [@AmitriptylineResponseNIH]. Thus, standard treatments often have increased risk of failure. In such cases, guidelines recommend selecting an alternative antidepressant that is not primarily metabolized by *CYP2D6* to ensure the patient receives a therapeutic benefit [@deanAmitriptylineTherapyCYP2D62012]. Similarly, for *CYP2C19* UMs, guidelines suggest avoiding citalopram or escitalopram due to the high likelihood of subtherapeutic drug levels and treatment failure [@brouwerDutchPharmacogeneticsWorking2022].
+*CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies of the gene, resulting in significantly elevated enzyme activity. Studies have found that *CYP2D6* gene duplications are most prevalent in Ethiopia and Saudi Arabia, with $20-30\%$ of the local population possessing this genotype (see @fig-cyp2d6-distribution). For context, Table \ref{tab:tbl-cyp2d6-phenotype} and Table \ref{tab:tbl-cyp2c19-phenotype} show the assignment of likely phenotypes based on the diplotypes of the *CYP2D6* and *CYP2C19* genes, respectively. If these patients are prescribed Tricyclic Antidepressants (TCAs) like amitriptyline or nortriptyline, the drug would be metabolized and cleared from the body too quickly to achieve therapeutic blood concentrations [@AmitriptylineResponseNIH]. Thus, standard treatments often have increased risk of failure. In such cases, guidelines recommend selecting an alternative antidepressant that is not primarily metabolized by *CYP2D6* to ensure the patient receives a therapeutic benefit [@deanAmitriptylineTherapyCYP2D62012]. Similarly, for *CYP2C19* UMs, guidelines suggest avoiding citalopram or escitalopram due to the high likelihood of subtherapeutic drug levels and treatment failure [@brouwerDutchPharmacogeneticsWorking2022].
 
-\begin{table*}[!t]
+![Interethnic distribution of alleles containing duplicated active CYP2D6 genes. Reproduced from Ingelman-Sundberg @ingelman-sundbergPharmacogeneticsOpportunitySafer2001.](photos/cyp2d6_duplication_distribution.png){#fig-cyp2d6-distribution fig-env="figure*"}
+
+\begin{table*}[!tbh]
   \begin{center}
     \caption{Assignment of predicted \textit{CYP2D6} phenotypes based on diplotypes}
     \label{tab:tbl-cyp2d6-phenotype}
@@ -169,7 +174,7 @@ To start, *CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies 
 \end{table*}
 
 
-\begin{table*}[!t]
+\begin{table*}[!tbh]
   \begin{center}
     \caption{Assignment of predicted \textit{CYP2C19} phenotypes based on diplotypes}
     \label{tab:tbl-cyp2c19-phenotype}
