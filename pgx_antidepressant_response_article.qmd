@@ -99,11 +99,9 @@ library(ragg)
 
 ## Context and Background
 
-Genetics plays a foundational role in modern medicine by explaining why individuals differ in their susceptibility to disease and in their responses to therapeutic interventions. These genetic differences, combined with environmental and lifestyle factors, contribute to the wide variation observed in drug effectiveness and safety across patient populations. Precision medicine is an emerging approach that aims to optimize patient care by accounting for individual variability rather than applying uniform, standardized treatment strategies. It incorporates multiple sources of variation, including genetic makeup, environmental exposures, and lifestyle components, to support more accurate diagnoses and more precisely targeted therapies. By moving beyond the traditional one-size-fits-all model, precision medicine seeks to improve overall treatment outcomes and reduce the likelihood of therapeutic failure [@konigWhatPrecisionMedicine2017].
+Genetics plays a foundational role in modern medicine by explaining why individuals differ in their susceptibility to disease and in their responses to therapeutic interventions. Together with environmental exposures and lifestyle influences, these genetic differences shape the considerable variability seen in drug effectiveness and safety. Precision medicine is an emerging approach that aims to optimize patient care by accounting for individual variability rather than applying uniform, standardized treatment strategies. It incorporates multiple sources of variation, including genetic makeup, environmental exposures, and lifestyle components, to support more accurate diagnoses and more precisely targeted therapies. By moving beyond the traditional one-size-fits-all model, precision medicine seeks to improve overall treatment outcomes and reduce the likelihood of therapeutic failure [@konigWhatPrecisionMedicine2017]. Pharmacogenetics, a central component of precision medicine, focuses on identifying genetic variants that shape drug response [@ingelman-sundbergPharmacogeneticsOpportunitySafer2001].
 
-Pharmacogenetics represents a core branch of precision medicine focused on genome-level investigation to identify genetic variants that influence drug response. These variations can affect critical pharmacological processes such as drug absorption, distribution, metabolism, target interaction, and involvement in disease pathways. By making clear how genetic differences shape individual drug responses, pharmacogenetics provides the scientific basis for tailoring medication selection and dosing to each patient [@ingelman-sundbergPharmacogeneticsOpportunitySafer2001].
-
-Treating Major Depressive Disorder (MDD) remains challenging because initial antidepressant response rates are low and vary widely among patients. MDD is often underdiagnosed, complicated by somatic symptoms, and commonly co-occurs with chronic medical conditions, delaying accurate treatment. Even with proper diagnosis, many patients do not respond to first-line therapy. STAR\*D data indicate that about $30\%$ of individuals fail to achieve remission after multiple antidepressant trials, highlighting a considerable treatment-resistant group [@rushSTARDRevisingConventional2009]. These outcomes reflect the biological and social heterogeneity of MDD, making standardized, trial-and-error prescribing inadequate. This gap underscores the need for more individualized strategies such as pharmacogenomic (PGx)-guided therapy to optimize initial drug selection and reduce repeated treatment failures.
+Treating Major Depressive Disorder (MDD) remains challenging because initial antidepressant response rates are low and vary widely among patients. MDD is often underdiagnosed, complicated by somatic symptoms, and commonly co-occurs with chronic medical conditions, delaying accurate treatment. Even with proper diagnosis, many patients do not respond to first-line therapy. Large clinical datasets, such as STAR*D, show that roughly $30\%$ of patients do not achieve remission even after several antidepressant trials, underscoring the presence of a substantial treatment-resistant subgroup [@rushSTARDRevisingConventional2009]. These outcomes reflect the biological and social variability within MDD, making standardized, trial-and-error prescribing inadequate. This gap underscores the need for more individualized strategies such as pharmacogenomic (PGx)-guided therapy to optimize initial drug selection and reduce repeated treatment failures.
 
 ## Scope and Thesis
 
@@ -113,7 +111,7 @@ This review examines the clinical role of PGx in guiding antidepressant prescrib
 
 ## Literature Search Strategy
 
-To gather the materials for this review, our team conducted a literature search across several major scientific databases, including PubMed, Google Scholar, and Web of Science. We used a range of search terms related to the topic, such as “pharmacogenomics and antidepressants,” “*CYP2D6*/*CYP2C19* polymorphisms,” “*CYP2D6* and *CYP2C19* dose adjustments,” “Major Depressive Disorder (MDD),” “drug metabolism genetics,” “precision medicine,” “CPIC guidelines,” “DPWG guidelines,” “tricyclic antidepressants,” and “SSRIs.” These articles were selected based on the following criteria: peer-reviewed publications, clinical guidelines, and review papers published between 2000 and 2025, with a clear focus on pharmacogenomics and antidepressant therapy. Sources that were not peer-reviewed, such as conference abstracts, opinion pieces, Wikipedia, or studies unrelated to antidepressant medications, were excluded to ensure the review was based on reliable and clinically relevant evidence.
+To gather the materials for this review, our team conducted a literature search across several major scientific databases, including PubMed, Google Scholar, and Web of Science. We used a range of search terms related to the topic, such as “pharmacogenomics and antidepressants,” “*CYP2D6*/*CYP2C19* polymorphisms,” “*CYP2D6* and *CYP2C19* dose adjustments,” “Major Depressive Disorder (MDD),” “drug metabolism genetics,” “precision medicine,” “CPIC guidelines,” “DPWG guidelines,” “tricyclic antidepressants,” and “SSRIs.” These articles were selected based on the following criteria: peer-reviewed publications, clinical guidelines, and review papers published between 2000 and 2025, with a clear focus on pharmacogenomics and antidepressant therapy. Non–peer-reviewed sources, including conference abstracts and opinion pieces, were excluded to ensure that only reliable and clinically relevant evidence informed the review.
 
 ## Data Extraction and Synthesis
 
@@ -125,17 +123,137 @@ After extraction, the information was systematically synthesized and organized i
 
 ## Genetics in Etiology and Diagnosis
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Introduction to Pharmacogenomics and Genetic Variation
+
+The most common form of DNA variation among individuals is the single-nucleotide polymorphism (SNP). SNPs are fundamentally a substitution of a single nucleotide that occurs at a specific position in the genome. These common variants occur approximately once in every $1~000$ nucleotides on average or, more broadly, every $300-2~000$ base pairs, meaning a person’s genome contains roughly $4-5$ million SNPs [source: A Review of Literature on the Pharmacogenomics of Single-Nucleotide Polymorphisms, SNPs: impact on gene function and phenotype - PubMed]. SNPs are responsible for conferring genomic diversity and generating phenotypic differences among individuals. Although most SNPs do not affect health, those in functionally relevant regions can significantly alter gene function. Functional changes resulting from SNPs include influencing promoter activity (gene expression) and affecting messenger RNA (mRNA) conformation and stability. This inherited variability is a crucial factor, accounting for $\approx 15-30\%$ of inter-individual variability in drug disposition and response, though for certain drugs, this variability can reach up to $95\%$ The identification and analysis of these variations provide a starting point for developing safer, individualized medication. [source: A Review of Literature on the Pharmacogenomics of Single-Nucleotide Polymorphisms, SNPs: impact on gene function and phenotype - PubMed, Pharmacist assessment of drug-gene interactions and drug-induced phenoconversion in major depressive disorder: a case report]
+
+### Genetic Basis of Drug Metabolism: Cytochrome P450 System
+
+The genetic foundation of pharmacogenomics directly intersects with drug elimination through the Cytochrome P450 (CYP) enzyme system, which functions as the cornerstone of drug metabolism. Genetic factors, specifically the inherited variability in drug-metabolizing enzymes, have a major impact on drug disposition and are responsible for a significant degree of interpatient variability. [source: Optimization of antidepressant treatment by pharmacogenomics: a case report]. Variations closely linked to drug metabolism are predominantly observed in Phase I metabolism, particularly within the gene polymorphisms of *CYP2C19* and *CYP2D6*. [source: Pharmacist assessment of drug-gene interactions and drug-induced phenoconversion in major depressive disorder: a case report] The CYP enzyme system is central to psychiatric pharmacogenomics because CYP enzymes are recognized as the primary liver enzymes responsible for drug metabolism.
+
+### *CYP2D6* and *CYP2C19* in Antidepressant Metabolism
+
+In the context of antidepressant therapy, polymorphisms in *CYP2D6* and *CYP2C19* are the most clinically relevant pharmacogenes influencing drug disposition and response. These highly polymorphic enzymes are centrally involved in the metabolism of numerous psychiatric drugs, including selective serotonin reuptake inhibitors (SSRIs) and tricyclic antidepressants (TCAs). [source: Optimization of antidepressant treatment by pharmacogenomics: a case report]
+
+#### *CYP2D6* Overview
+
+*CYP2D6* is one of the most extensively studied pharmacogenomic biomarkers and plays an essential role in antidepressant metabolism, participating in the clearance of roughly 20% of all therapeutic drugs. *CYP2D6* extensively metabolizes several antidepressants, including paroxetine, fluvoxamine, venlafaxine, and vortioxetine, typically converting the active parent compound into less active metabolites. [source: Optimization of antidepressant treatment by pharmacogenomics: a case report, Pharmacogenomic biomarkers as source of evidence of the effectiveness and safety of antidepressant therapy, Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A Genotypes and Serotonin Reuptake Inhibitor Antidepressants]
+
+#### *CYP2C19* Overview
+
+*CYP2C19* is highly involved in antidepressant metabolism, alongside *CYP2D6*. It is responsible for metabolizing about $5-10\%$ of all drugs. More importantly, it extensively metabolizes several SSRIs, such as citalopram, escitalopram, and sertraline, usually converting them to much less potent metabolites. The antidepressant escitalopram, for instance, is metabolized by *CYP2D6*, *CYP2C19*, and *CYP3A4*. [source: Optimization of antidepressant treatment by pharmacogenomics: a case report…]
+
+The extensive polymorphism of these two enzymes dictates that individuals possess different metabolic capacities, impacting the clearance, half-life, and plasma concentrations of most antidepressants. Consequently, genetic testing focuses on these two key enzymes to classify a patient's metabolic status and predict pharmacokinetic variability associated with standard dosing. [source: Optimization of antidepressant treatment by pharmacogenomics: a case report]
+
+### Diagnostic Metabolic Categories
+
+The inherent functional capacity of these CYP enzymes is determined by the patient’s unique combination of inherited alleles, or diplotype. PGx testing utilizes this information to categorize individuals into distinct metabolic phenotypes, which act as diagnostic tools to predict the efficacy and safety profile of standard drug dosages. [source: CPIC Guideline for CYP2C19 and Proton Pump Inhibitor Dosing…] The resulting phenotypes include Poor Metabolizers (PMs), Intermediate Metabolizers (IMs), Normal Metabolizers (NMs), Rapid Metabolizers (RMs), and Ultrarapid Metabolizers (UMs). [source: Optimization of antidepressant treatment by pharmacogenomics: a case report]. Tables \ref{tab:tbl-cyp2d6-phenotype} and \ref{tab:tbl-cyp2c19-phenotype} summarize the relationship between *CYP2D6*/*CYP2C19* diplotypes and the resulting metabolic phenotypes. These phenotypes determine whether a patient under- or over-metabolizes a drug, forming the basis for clinical dose adjustments.
+
+\begin{table*}[!tbh]
+  \centering
+  \caption{Assignment of predicted \textit{CYP2D6} phenotypes based on diplotypes}
+  \label{tab:tbl-cyp2d6-phenotype}
+  \begin{tabular}{p{4.0cm}|p{2.2cm}|p{6.3cm}|p{4.0cm}}
+    \textbf{Phenotype} & \textbf{Activity score} & \textbf{Genotypes} & \textbf{Example diplotypes} \\
+    \hline
+    \textit{CYP2D6} Ultrarapid metabolizer
+      & $>2.25$ 
+      & Carries duplications of functional alleles 
+      & (*1/*1)$\times N$, (*1/*2)$\times N$, (*2/*2)$\times N$ \\
+
+    \textit{CYP2D6} Normal metabolizer
+      & $1.25 \le x \le 2.25$
+      & Allele combinations yielding an activity score of 1.0–2.0
+      & *1/*1, *1/*2, *2/*2, *1/*9, *1/*41, *41/*41, *1/*5, *1/*4 \\
+
+    \textit{CYP2D6} Intermediate metabolizer
+      & $0 < x < 1.25$
+      & One decreased-function allele and one no-function allele
+      & *4/*41, *5/*9, *4/*10 \\
+
+    \textit{CYP2D6} Poor metabolizer
+      & $0$
+      & Carries only no-function alleles
+      & *4/*4, (*4/*4)$\times N$, *3/*4, *5/*5, *5/*6 \\
+
+    \textit{CYP2D6} Indeterminate
+      & n/a
+      & One or two uncertain or unknown-function alleles
+      & *1/*22, *1/*25, *22/*25 \\
+  \end{tabular}
+
+  \vspace{1ex}
+  {\footnotesize\itshape
+    Note. Phenotype assignments were synthesized from the DPWG guideline on \textit{CYP2C19} and \textit{CYP2D6} interactions with SSRIs \cite{brouwerDutchPharmacogeneticsWorking2022}, the CPIC Guideline for Selective Serotonin Reuptake Inhibitors (2023) \cite{bousmanClinicalPharmacogeneticsImplementation2023}, and the CPIC Guideline for Tricyclic Antidepressants (2016) \cite{hicksClinicalPharmacogeneticsImplementation2017}.}
+\end{table*}
+
+
+\begin{table*}[!tbh]
+  \centering
+  \caption{Assignment of predicted \textit{CYP2C19} phenotypes based on diplotypes}
+  \label{tab:tbl-cyp2c19-phenotype}
+  \begin{tabular}{p{4.0cm}|p{2.2cm}|p{6.3cm}|p{4.0cm}}
+    \textbf{Phenotype} & \textbf{Activity score} & \textbf{Genotypes} & \textbf{Example diplotypes} \\
+    \hline
+    \textit{CYP2C19} Ultrarapid metabolizer
+      & n/a
+      & Two increased-function alleles
+      & *17/*17 \\
+
+    \textit{CYP2C19} Rapid metabolizer
+      & n/a
+      & One normal-function and one increased-function allele
+      & *1/*17 \\
+
+    \textit{CYP2C19} Normal metabolizer
+      & n/a
+      & Two normal-function alleles
+      & *1/*1 \\
+
+    \textit{CYP2C19} Likely intermediate metabolizer
+      & n/a
+      & One normal and one decreased-function allele; or one increased and one decreased-function allele; or two decreased-function alleles
+      & *1/*9, *9/*17, *9/*9 \\
+
+    \textit{CYP2C19} Intermediate metabolizer
+      & n/a
+      & One normal and one no-function allele; or one no-function and one increased-function allele
+      & *1/*2, *1/*3, *2/*17 \\
+
+    \textit{CYP2C19} Likely poor metabolizer
+      & n/a
+      & One decreased-function allele and one no-function allele
+      & *2/*9, *3/*9 \\
+
+    \textit{CYP2C19} Poor metabolizer
+      & n/a
+      & Two no-function alleles
+      & *2/*2, *2/*3, *3/*3 \\
+
+    \textit{CYP2C19} Indeterminate
+      & n/a
+      & One or two uncertain-function alleles
+      & *1/*12, *2/*12, *12/*14 \\
+  \end{tabular}
+
+  \vspace{1ex}
+  {\footnotesize\itshape
+    Note. Phenotype assignments were synthesized from the DPWG guideline on \textit{CYP2C19} and \textit{CYP2D6} interactions with SSRIs \cite{brouwerDutchPharmacogeneticsWorking2022}, the CPIC Guideline for Selective Serotonin Reuptake Inhibitors (2023) \cite{bousmanClinicalPharmacogeneticsImplementation2023}, and the CPIC Guideline for Tricyclic Antidepressants (2016) \cite{hicksClinicalPharmacogeneticsImplementation2017}.}
+\end{table*}
+
+### Conceptual Summary
+
+The analysis of *CYP2D6* and *CYP2C19* polymorphisms functions as a preemptive diagnostic tool to classify the individual’s metabolic phenotype (UM, RM, NM, IM, or PM). This diagnostic classification is critical for predicting drug exposure levels (pharmacokinetics), which then guides clinical decisions regarding optimal drug selection or necessary dosage adjustments for standard maintenance therapy. This helps personalize treatment and move away from ineffective trial-and-error methods. [source: CPIC Guideline…]
 
 ## Application in Therapy
 
-PGx testing directly translates genetic data into evidence-based clinical decisions, which fundamentally alters the traditional trial-and-error approach to antidepressant therapy. By utilizing genetic data, clinicians can optimize treatment efficacy and safety with informed drug selections and precise dosage adjustments.
+PGx testing translates genomic variation into actionable therapeutic choices, shifting antidepressant therapy away from trial-and-error and toward a model in which mechanism, exposure, and clinical effect are linked in a predictable way. In practice, this means that the patient’s metabolic capacity is used as a starting point for drug selection, dose setting, and interpretation of nonresponse.
 
 ### Guiding Drug Selection
 
-The primary application of PGx in antidepressant therapy is the initial selection of a medication that matches the patient's metabolic profile. This process aims to maximize efficacy while alleviating the risk of adverse drug reactions (ADRs). The CPIC and the DPWG provide guidelines for specific gene-drug pairs, particularly involving *CYP2D6* and *CYP2C19* [@bousmanClinicalPharmacogeneticsImplementation2023; @bousmanReviewConsensusPharmacogenomic2021; @brouwerDutchPharmacogeneticsWorking2022].
+The primary application of PGx in antidepressant therapy is the initial selection of a medication that matches the patient's metabolic profile. This process aims to maximize efficacy while alleviating the risk of adverse drug reactions (ADRs). The CPIC and the DPWG provide guidelines for specific gene-drug pairs, particularly involving *CYP2D6* and *CYP2C19*, and operationalize this by mapping genotype$\to$phenotype$\to$expected serum concentration$\to$likelihood of response or toxicity [@bousmanClinicalPharmacogeneticsImplementation2023; @bousmanReviewConsensusPharmacogenomic2021; @brouwerDutchPharmacogeneticsWorking2022].
 
-*CYP2D6* Ultrarapid Metabolizers (UMs) possess multiple active copies of the gene, resulting in significantly elevated enzyme activity. Studies have found that *CYP2D6* gene duplications are most prevalent in Ethiopia and Saudi Arabia, with $20-30\%$ of the local population possessing this genotype (see Fig. \ref{fig:cyp2d6-distribution}). For context, Table \ref{tab:tbl-cyp2d6-phenotype} and Table \ref{tab:tbl-cyp2c19-phenotype} show the assignment of likely phenotypes based on the diplotypes of the *CYP2D6* and *CYP2C19* genes, respectively. If these patients are prescribed TCAs like amitriptyline or nortriptyline, the drug would be metabolized and cleared from the body too quickly to achieve therapeutic blood concentrations [@AmitriptylineResponseNIH]. Thus, standard treatments often have an increased risk of failure. In such cases, guidelines recommend selecting an alternative antidepressant that is not primarily metabolized by *CYP2D6* to ensure the patient receives a therapeutic benefit [@deanAmitriptylineTherapyCYP2D62012]. Similarly, for *CYP2C19* UMs, guidelines suggest avoiding citalopram or escitalopram due to the high likelihood of subtherapeutic drug levels and treatment failure [@brouwerDutchPharmacogeneticsWorking2022].
+Population differences in *CYP2D6* and *CYP2C19* activity illustrate this chain clearly. In regions where functional variants are especially common, a larger proportion of patients may be predisposed to treatment failure when standard prescribing practices are used. For example, *CYP2D6* gene duplications occur in approximately $20–30\%$ of individuals in Ethiopia and Saudi Arabia (see Fig. \ref{fig:cyp2d6-distribution}). The mechanism is straightforward: duplicated active alleles increase enzyme abundance; increased enzyme abundance accelerates clearance; accelerated clearance prevents the drug from reaching its expected steady-state concentration [@AmitriptylineResponseNIH]. For tricyclic antidepressants such as amitriptyline or nortriptyline, this yields subtherapeutic serum levels and clinical nonresponse despite adherence. In these cases, guidelines recommend choosing an antidepressant that is not primarily metabolized by *CYP2D6* [@deanAmitriptylineTherapyCYP2D62012]. Similarly, for *CYP2C19* ultrarapid metabolizers, citalopram and escitalopram are generally discouraged because of the high probability of subtherapeutic exposure and treatment failure [@brouwerDutchPharmacogeneticsWorking2022].
 
 \begin{figure*}[!htb]
     \centering
@@ -144,90 +262,10 @@ The primary application of PGx in antidepressant therapy is the initial selectio
     \label{fig:cyp2d6-distribution}
 \end{figure*}
 
-\begin{table*}[!tbh]
-  \begin{center}
-    \caption{Assignment of predicted \textit{CYP2D6} phenotypes based on diplotypes}
-    \label{tab:tbl-cyp2d6-phenotype}
-    \begin{tabular}{p{4.1cm}|p{2.0cm}|p{6.5cm}|p{4.1cm}}
-      \textbf{Phenotype} & \textbf{Activity score range} & \textbf{Genotypes} & \textbf{Examples of \textit{CYP2D6} diplotypes} \\
-      \hline
-      \textit{CYP2D6} Ultrarapid metabolizer ($\approx1–20\%$ of patients) 
-      & $>2.25$ 
-      & Carries duplications of functional alleles 
-      & $(*1/*1) \times N$, $(*1/*2) \times N$, $(*2/*2) \times N$ \\
-      \textit{CYP2D6} Normal metabolizer ($\approx72–88\%$ of patients) 
-      & $1.25\le x \le 2.25$
-      & Carries allele combinations resulting in an activity score of $1.0–2.0$
-      & $*1/*1$, $*1/*2$, $*2/*2$, $*1/*9$, $*1/*41$, $*41/*41$, $*1/*5$, $*1/*4$ \\
-      \textit{CYP2D6} Intermediate metabolizer ($\approx1–13\%$ of patients) 
-      & $0<x<1.25$
-      & Carries one decreased function allele and one no function allele
-      & $*4/*41$, $*5/*9$, $*4/*10$ \\
-      \textit{CYP2D6} Poor metabolizer ($\approx1–10\%$ of patients)
-      & $0$
-      & Carries only no function alleles
-      & $*4/*4$, $(*4/*4)\times N$, $*3/*4$, $*5/*5$, $*5/*6$ \\
-      \textit{CYP2D6} Indeterminate
-      & $0$
-      & Carries one or two uncertain and/or unknown function alleles
-      & $*1/*22$, $*1/*25$, $*22/*25$
-    \end{tabular}
-    \vspace{1ex} % optional, a bit of vertical spacing
-   {\footnotesize
-    \itshape \newline Note. Phenotype assignments were compiled by synthesizing criteria from the DPWG guideline on CYP2C19 and CYP2D6 interactions with SSRIs \cite{brouwerDutchPharmacogeneticsWorking2022}, the CPIC Guideline for Selective Serotonin Reuptake Inhibitors (2023) \cite{bousmanClinicalPharmacogeneticsImplementation2023}, and the CPIC Guideline for Tricyclic Antidepressants (2016) \cite{hicksClinicalPharmacogeneticsImplementation2017}.}
-  \end{center}
-\end{table*}
-
-\begin{table*}[!tbh]
-  \begin{center}
-    \caption{Assignment of predicted \textit{CYP2C19} phenotypes based on diplotypes}
-    \label{tab:tbl-cyp2c19-phenotype}
-    \begin{tabular}{p{4.1cm}|p{2.0cm}|p{6.5cm}|p{4.1cm}}
-      \textbf{Phenotype} & \textbf{Activity score range} & \textbf{Genotypes} & \textbf{Examples of \textit{CYP2C19} diplotypes} \\
-      \hline
-      \textit{CYP2C19} Ultrarapid metabolizer
-      & n/a 
-      & Carries two increased function alleles
-      & $*17/*17$ \\
-      \textit{CYP2C19} Rapid metabolizer
-      & n/a
-      & Carries one normal function allele and one increased function allele
-      & $*1/*17$ \\
-      \textit{CYP2C19} Normal metabolizer
-      & n/a
-      & Carries two normal function alleles
-      & $*1/*1$ \\
-      \textit{CYP2C19} Likely intermediate metabolizer
-      & n/a
-      & Carries either: one normal and one decreased function allele, or one increased and one decreased function allele, or two decreased function alleles
-      & $*1/*9$, $*9/*17$, $*9/*9$ \\
-      \textit{CYP2C19} Intermediate metabolizer
-      & n/a
-      & Carries either: one normal and one no function allele, or one no function and one increased function allele
-      & $*1/*2$, $*1/*3$, $*2/*17$ \\
-      \textit{CYP2C19} Likely poor metabolizer
-      & n/a
-      & Carries one decreased function allele and one no function allele
-      & $*2/*9$, $*3/*9$ \\
-      \textit{CYP2C19} Poor metabolizer
-      & n/a
-      & Carries two no function alleles
-      & $*2/*2$, $*2/*3$, $*3/*3$ \\
-      \textit{CYP2C19} Indeterminate
-      & n/a
-      & Carries one or two uncertain function alleles
-      & $*1/*12$, $*2/*12$, $*12/*14$ \\
-    \end{tabular}
-    \vspace{1ex} % optional, a bit of vertical spacing
-   {\footnotesize
-    \itshape \newline Note. Phenotype assignments were compiled by synthesizing criteria from the DPWG guideline on CYP2C19 and CYP2D6 interactions with SSRIs \cite{brouwerDutchPharmacogeneticsWorking2022}, the CPIC Guideline for Selective Serotonin Reuptake Inhibitors (2023) \cite{bousmanClinicalPharmacogeneticsImplementation2023}, and the CPIC Guideline for Tricyclic Antidepressants (2016) \cite{hicksClinicalPharmacogeneticsImplementation2017}.}
-  \end{center}
-\end{table*}
-
 ### Dosage Adjustment
 When a specific antidepressant is deemed necessary regardless of a non-normal metabolic status, PGx testing helps determine precise dosage adjustments to maintain safety and efficacy. Standard dosing is typically derived from population averages, which may be dangerous for Poor Metabolizers (PMs) or ineffective for UMs. CPIC guidelines offer specific dosing protocols based on genotype-predicted phenotypes:
 
-* SSRIs: For *CYP2C19* PMs, CPIC recommends a $50\%$ reduction in the starting dose of citalopram, escitalopram, or sertraline [@bousmanClinicalPharmacogeneticsImplementation2023]. This reduction prevents the accumulation of the drug in the bloodstream, which could lead to dose-dependent side effects such as QT-interval prolongation (a heart rhythm disorder) or serotonin syndrome [@brouwerDutchPharmacogeneticsWorking2022; @landyEscitalopram2025].
+* SSRIs: For *CYP2C19* PMs, CPIC recommends a $50\%$ reduction in the starting dose of citalopram, escitalopram, or sertraline [@bousmanClinicalPharmacogeneticsImplementation2023]. This reduction prevents the accumulation of the drug in the bloodstream, which could lead to dose-dependent side effects such as QT-interval prolongation or serotonin syndrome [@brouwerDutchPharmacogeneticsWorking2022; @landyEscitalopram2025].
 
 * TCAs: For *CYP2D6* PMs, a dose reduction of up to $50\%$ is recommended for drugs like paroxetine and most TCAs to avoid toxicity. Similarly, Intermediate Metabolizers (IMs) may require a moderate dose reduction (e.g., $25\%$) to balance efficacy and tolerability [@hicksClinicalPharmacogeneticsImplementation2017].
 
@@ -237,17 +275,25 @@ These adjustments allow clinicians to achieve steady-state drug concentrations t
 
 PGx is a critical tool for managing Treatment-Resistant Depression (TRD), which is defined as failure to respond to at least two adequate trials of antidepressants [@delcasalePharmacogenomicsGuidedPharmacotherapyPatients2022]. In clinical practice, PGx testing is often reserved for patients who have already failed multiple lines of therapy or experienced severe side effects.
 
-Genetic testing can retrospectively explain treatment failure. For instance, a patient labeled as "treatment-resistant" may actually be a *CYP2D6* UM who never achieved adequate serum levels of the prescribed medication, or a PM who discontinued therapy due to severe intolerance interpreted as non-compliance [@breilNonresponseConsecutiveAntidepressant2008; @lorvellecPharmacogeneticsTestingPoor2024]. Studies indicate that PGx-guided treatment in patients with MDD significantly improves response and remission rates compared to treatment as usual (TAU) [@albersMetaanalysisResponseRemission2025; @hainPersistentBenefitPharmacogenomic2025; @bunkaEvaluatingTreatmentOutcomes2023]. By identifying the biological drivers of poor response, clinicians can switch to drugs with different metabolic pathways or mechanisms of action, thus overcoming the barrier of resistance.
+Genetic testing can retrospectively explain treatment failure. For instance, a patient labeled as "treatment-resistant" may actually be a *CYP2D6* UM who never achieved adequate serum levels of the prescribed medication, or a PM who discontinued therapy due to severe intolerance interpreted as non-compliance [@breilNonresponseConsecutiveAntidepressant2008; @lorvellecPharmacogeneticsTestingPoor2024]. Another clinically important pattern appears in *CYP2D6* poor metabolizers taking nortriptyline, where normal doses can drive serum concentrations into the toxic range, leading to anticholinergic side effects, arrhythmia risk, and premature discontinuation that may be misinterpreted as nonresponse [@leeCaseReportPoor2004]. Studies indicate that PGx-guided treatment in patients with MDD significantly improves response and remission rates compared to treatment as usual (TAU) [@albersMetaanalysisResponseRemission2025; @hainPersistentBenefitPharmacogenomic2025; @bunkaEvaluatingTreatmentOutcomes2023]. By identifying the biological drivers of poor response, clinicians can switch to drugs with different metabolic pathways or mechanisms of action, thus overcoming the barrier of resistance.
 
 ## Clinical Challenges and Future Directions
 
 ### Challenges
 
-High costs of PGx testing represent a primary barrier to implementation in antidepressant therapy, with multi-gene panels often exceeding affordable thresholds in resource-limited settings and lacking consistent reimbursement from insurers. Physician education gaps persist, as many clinicians report insufficient training to interpret PGx results or integrate them into prescribing decisions, resulting in low adoption rates despite available guidelines. The complexity of multi-gene interpretation further complicates use, since antidepressant response involves interacting variants in genes like *CYP2D6* and *CYP2C19*, where phenotypes such as Ultrarapid Metabolizers (UMs) or Poor Metabolizers (PMs) require nuanced assessment amid variable evidence strength. Additional obstacles include workflow disruptions, inconsistent clinical guidelines, and data privacy issues that hinder routine PGx application.
+High costs of PGx testing represent a primary barrier to implementation in antidepressant therapy, with multi-gene panels often exceeding affordable thresholds in resource-limited settings and lacking consistent reimbursement from insurers. Physician training remains a significant barrier. Many clinicians report inadequate preparation for interpreting PGx results or applying them in prescribing decisions, which limits adoption despite the existence of guidelines. The complexity of multi-gene interpretation further complicates use, since antidepressant response involves interacting variants in genes like *CYP2D6* and *CYP2C19*, where phenotypes such as Ultrarapid Metabolizers (UMs) or Poor Metabolizers (PMs) require nuanced assessment amid variable evidence strength. Additional obstacles include workflow disruptions, inconsistent clinical guidelines, and data privacy issues that hinder routine PGx application.
 
 ### Future Directions
 
-Future directions in PGx for antidepressant therapy aim to resolve key clinical challenges, such as interpretation complexity, physician education deficits, and workflow inefficiencies, through technological and analytical advancements. Integration of PGx data into Electronic Health Records (EHRs) enables automated clinical decision support; for instance, the system scans a patient's genotype and alerts physicians if they are a *CYP2D6* UM, recommending a higher starting dose of antidepressants like nortriptyline to avoid subtherapeutic levels, or a PM status prompting dose reduction to prevent toxicity. Polygenic Risk Scores (PRS) will enhance precision by combining multiple loci to predict treatment response, surpassing single-gene limitations and supporting stratified dosing in depression care. These innovations, alongside expanded guidelines and training, promise broader equitable access.
+Future directions in PGx for antidepressant therapy aim to resolve key clinical challenges, such as interpretation complexity, physician education deficits, and workflow inefficiencies, through technological and analytical advancements. Integration of PGx data into Electronic Health Records (EHRs) enables automated clinical decision support. For instance, an EHR system can scan a patient’s genotype and flag a *CYP2D6* ultrarapid metabolizer status, prompting clinicians to consider switching to an antidepressant not primarily metabolized by *CYP2D6*; only when alternatives are unsuitable would the system suggest a higher starting dose for agents such as nortriptyline. Polygenic Risk Scores (PRS) will enhance precision by combining multiple loci to predict treatment response, surpassing single-gene limitations and supporting stratified dosing in depression care. Although promising, these scores remain early-stage research tools for antidepressant response, and no clinical guidelines currently support their routine use, so they should be viewed as a longer-term direction rather than an imminent component of standard care. The aforementioned innovations, alongside expanded guidelines and training, promise broader equitable access.
+
+# Conclusion
+
+This review has demonstrated that pharmacogenomic (PGx) testing, particularly focusing on inherited variations in the key drug-metabolizing enzymes Cytochrome P450 *CYP2D6* and *CYP2C19*, is an essential strategy for improving how we prescribe antidepressants for Major Depressive Disorder (MDD). Our main conclusion—that PGx testing can markedly improve the prediction of how a patient will respond to medication—is strongly supported by its established role in clinical practice.
+
+The significant genetic differences found within *CYP2D6* and *CYP2C19* directly lead to distinct metabolic profiles in patients (for example, Poor, Intermediate, and Ultrarapid Metabolizers). These profiles, in turn, critically affect the actual amount of an antidepressant (like SSRIs and TCAs) that reaches the bloodstream. To address this, organizations such as the Clinical Pharmacogenetics Implementation Consortium (CPIC) and the Dutch Pharmacogenetics Working Group (DPWG) have developed guidelines that turn this genetic data into practical advice for choosing the right drug or adjusting its dose. This systematic approach allows clinicians to move beyond the traditional, often frustrating, trial-and-error method. For Poor Metabolizers, this means significantly reducing the risk of severe side effects (ADRs); for Ultrarapid Metabolizers, it helps ensure the drug is not cleared too quickly, leading to nonresponse.
+
+Despite the clear benefits, certain roadblocks remain today. These hurdles include the substantial expense of testing, the need for improved training for medical professionals in interpreting these results, and the difficulty inherent in analyzing multiple genes whose effects interact. Nonetheless, the outlook for the future is quite encouraging. We anticipate a smoother, automated process as PGx results are integrated directly into Electronic Health Records (EHRs). Furthermore, the creation of more advanced Polygenic Risk Scores (PRS) is expected to make tailored depression treatment both more successful and more widely available to patients. The key takeaway is this: testing for *CYP2D6* and *CYP2C19* is no longer a developing theory; it is now a proven, reliable clinical tool. It offers the most direct and practical path to genuinely individualize antidepressant therapy, which is the most critical factor for enhancing patient results.
 
 # Abbreviations
 
@@ -282,6 +328,5 @@ The authors declare no competing interests.
 # Data/Code Availability
 
 The Quarto project underlying this paper—including the manuscript, figures, and bibliography—is available at \url{https://github.com/ht2905/pgx-antidepressant-response-article}.
-
 
 # References
