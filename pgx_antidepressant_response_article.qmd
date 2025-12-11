@@ -1,6 +1,6 @@
 ---
 title: CYP2D6 and CYP2C19 Polymorphisms as Predictors of Antidepressant Response
-subtitle: Clinical Applications of CYP2D6 and CYP2C19 Pharmacogenomics
+# subtitle: Clinical Applications of CYP2D6 and CYP2C19 Pharmacogenomics
 author:
   - name: Tran Quoc Hoang
     email: tranquochoang@protonmail.com
@@ -64,7 +64,7 @@ date: last-modified
 bibliography: bibliography.bib
 format:
   elsevier-pdf:
-    tables: float
+    # tables: float
     includes:
       in_header: preamble.tex
     keep-tex: true
@@ -157,7 +157,7 @@ The extensive polymorphism of these two enzymes dictates that individuals posses
 
 The inherent functional capacity of these CYP enzymes is determined by the patient’s unique combination of inherited alleles, or diplotype. PGx testing utilizes this information to categorize individuals into distinct metabolic phenotypes, which act as diagnostic tools to predict the efficacy and safety profile of standard drug dosages [@limaClinicalPharmacogeneticsImplementation2021; @keePharmacogeneticsCYP2D6CYP2C192023]. The resulting phenotypes include poor metabolizers (PMs), intermediate metabolizers (IMs), normal metabolizers (NMs), rapid metabolizers (RMs), and ultrarapid metabolizers (UMs) [@zhangOptimizationAntidepressantTreatment2025]. Tables \ref{tab:tbl-cyp2d6-phenotype} and \ref{tab:tbl-cyp2c19-phenotype} summarize the relationship between *CYP2D6*/*CYP2C19* diplotypes and the resulting metabolic phenotypes. These phenotypes determine whether a patient under- or over-metabolizes a drug, forming the basis for clinical dose adjustments.
 
-\begin{table*}[!tbh]
+\begin{table*}[!htb]
   \centering
   \caption{Assignment of predicted \textit{CYP2D6} phenotypes based on diplotypes}
   \label{tab:tbl-cyp2d6-phenotype}
@@ -196,7 +196,7 @@ The inherent functional capacity of these CYP enzymes is determined by the patie
 \end{table*}
 
 
-\begin{table*}[!tbh]
+\begin{table*}[!htb]
   \centering
   \caption{Assignment of predicted \textit{CYP2C19} phenotypes based on diplotypes}
   \label{tab:tbl-cyp2c19-phenotype}
@@ -323,7 +323,7 @@ The authors declare no competing interests.
 
 # Abbreviations
 
-\begin{table}[!tbh]
+\begin{table}[!htb]
   \centering
   \begin{tabular}{ p{2.2cm} | p{5.6cm} }
   \textbf{Abbreviation} & \textbf{Full Term} \\

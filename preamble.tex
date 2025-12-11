@@ -1,7 +1,20 @@
 \usepackage[hyphens]{url}       % allows breaking at hyphens and slashes
-% \usepackage{xurl}               % optional; more aggressive line breaking in URLs
+% \usepackage{xurl}             % optional; more aggressive line breaking in URLs
 \usepackage{hyperref}           % for clickable links
 \hypersetup{breaklinks=true}    % allows links to wrap over multiple lines
 \usepackage{breakurl}           % optional for better break handling in bibliography (works with natbib)
 \usepackage{threeparttable}     % adds Note section for LaTeX tables
 \usepackage{array}              % adds text-wrapping for tables
+
+\usepackage{float}		          % does nothing in Elsevier template
+\usepackage{placeins}	        	% does nothing in Elsevier template
+
+% Allow more floats per page
+\setcounter{topnumber}{5}
+\setcounter{dbltopnumber}{5}
+\setcounter{totalnumber}{10}
+
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\dbltopfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.9}
