@@ -278,7 +278,7 @@ When a patient must remain on a particular antidepressant despite a predicted no
 
 - SSRIs: For *CYP2C19* PMs taking citalopram, escitalopram, or sertraline, CPIC recommends reducing the initial dose by $50\%$ to avoid excessive serum levels and potential complications such as QT prolongation or serotonin toxicity [@bousmanClinicalPharmacogeneticsImplementation2023; @brouwerDutchPharmacogeneticsWorking2022; @landyEscitalopram2025].
 
-*-TCAs: For *CYP2D6* PMs, dose reductions of up to $50\%$ are recommended to prevent toxicity, while IMs may require more modest reductions of approximately $25\%$ depending on the agent and clinical context [@hicksClinicalPharmacogeneticsImplementation2017].
+- TCAs: For *CYP2D6* PMs, dose reductions of up to $50\%$ are recommended to prevent toxicity, while IMs may require more modest reductions of approximately $25\%$ depending on the agent and clinical context [@hicksClinicalPharmacogeneticsImplementation2017].
 
 These tailored dosing strategies help maintain drug concentrations within the therapeutic window, reducing the time patients spend on ineffective or harmful regimens and improving the likelihood of early clinical benefit [@althagafiIMPACTPHARMACOGENOMICSPERSONALIZED2022].
 
