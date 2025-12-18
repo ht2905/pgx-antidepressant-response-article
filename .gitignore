@@ -70,11 +70,11 @@ Thumbs.db # Windows thumbnail cache
 # *.secrets
 # *.key
 
-# Rendered documents (Uncomment if you decide to ignore outputs)
-*.html
-*.pdf
+# Rendered documents
+# *.html
+# *.pdf
 # *.docx
-*.tex
+# *.tex
 
 # ----------------------------------------------------------------------------
 # Project-specific
